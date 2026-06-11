@@ -36,6 +36,6 @@ def test_write_methods_allowed_when_readonly_disabled(method):
 
 
 def test_read_only_tools_set_is_stable():
-    assert READ_ONLY_TOOLS == frozenset(
+    assert READ_ONLY_TOOLS == frozenset(  # noqa: SIM300 — actual == expected reads naturally here
         {"list_invoices", "get_partner", "search_products"}
     )
