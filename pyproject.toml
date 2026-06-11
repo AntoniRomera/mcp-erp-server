@@ -9,7 +9,7 @@ description = "A Model Context Protocol server exposing an ERP / JSON-RPC backen
 readme = "README.md"
 requires-python = ">=3.11"
 license = { text = "MIT" }
-authors = [{ name = "Antoni Romera Luis", email = "aromera@astrohms.com" }]
+authors = [{ name = "Antoni Romera Luis", email = "toniromeraluis@gmail.com" }]
 keywords = ["mcp", "model-context-protocol", "erp", "json-rpc", "llm", "agents"]
 classifiers = [
     "Development Status :: 4 - Beta",
