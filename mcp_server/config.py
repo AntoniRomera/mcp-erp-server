@@ -23,6 +23,9 @@ class Settings(BaseSettings):
         env_file=".env",
         env_file_encoding="utf-8",
         extra="ignore",
+        # Allow constructing Settings(**fields) by field name (e.g. build_settings
+        # and tests pass `backend_url=`/`demo=`), not only by the env-var alias.
+        populate_by_name=True,
     )
 
     backend_url: str = Field(
