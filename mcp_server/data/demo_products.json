@@ -1,0 +1,50 @@
+[
+  {
+    "id": 101,
+    "name": "Standard Widget",
+    "sku": "WID-STD-001",
+    "list_price": 19.99,
+    "qty_available": 540.0,
+    "category": "Widgets"
+  },
+  {
+    "id": 102,
+    "name": "Premium Widget",
+    "sku": "WID-PRM-002",
+    "list_price": 49.99,
+    "qty_available": 128.0,
+    "category": "Widgets"
+  },
+  {
+    "id": 103,
+    "name": "Gadget Mini",
+    "sku": "GAD-MIN-010",
+    "list_price": 12.5,
+    "qty_available": 0.0,
+    "category": "Gadgets"
+  },
+  {
+    "id": 104,
+    "name": "Gadget Pro",
+    "sku": "GAD-PRO-011",
+    "list_price": 89.0,
+    "qty_available": 76.0,
+    "category": "Gadgets"
+  },
+  {
+    "id": 105,
+    "name": "Annual Support Plan",
+    "sku": "SVC-SUP-001",
+    "list_price": 1200.0,
+    "qty_available": 9999.0,
+    "category": "Services"
+  },
+  {
+    "id": 106,
+    "name": "Onboarding Consulting (per hour)",
+    "sku": "SVC-CON-002",
+    "list_price": 150.0,
+    "qty_available": 9999.0,
+    "category": "Services"
+  }
+]

@@ -1,0 +1,60 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "mcp-erp-server"
+version = "0.1.0"
+description = "A Model Context Protocol server exposing an ERP / JSON-RPC backend to AI agents as typed, read-only tools."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "Antoni Romera Luis", email = "aromera@astrohms.com" }]
+keywords = ["mcp", "model-context-protocol", "erp", "json-rpc", "llm", "agents"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+
+dependencies = [
+    "mcp>=1.27,<2.0",
+    "httpx>=0.27,<1.0",
+    "pydantic>=2.11,<3.0",
+    "pydantic-settings>=2.5",
+]
+
+[project.optional-dependencies]
+dev = [
+    "ruff>=0.6",
+    "pytest>=8",
+    "pytest-asyncio>=0.23",
+    "respx>=0.21",
+]
+
+[project.scripts]
+mcp-erp-server = "mcp_server.__main__:main"
+
+[project.urls]
+Homepage = "https://github.com/AntoniRomera/mcp-erp-server"
+Repository = "https://github.com/AntoniRomera/mcp-erp-server"
+
+[tool.hatch.build.targets.wheel]
+packages = ["mcp_server"]
+
+[tool.hatch.build.targets.wheel.force-include]
+"mcp_server/data" = "mcp_server/data"
+
+[tool.ruff]
+target-version = "py311"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]

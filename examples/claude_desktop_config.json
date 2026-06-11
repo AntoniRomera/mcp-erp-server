@@ -1,0 +1,22 @@
+{
+  "//": "Copy this into Claude Desktop's config file and restart Claude Desktop.",
+  "//macos_path": "~/Library/Application Support/Claude/claude_desktop_config.json",
+  "//windows_path": "%APPDATA%\\Claude\\claude_desktop_config.json",
+  "mcpServers": {
+    "erp-demo": {
+      "command": "python",
+      "args": ["-m", "mcp_server", "--demo"],
+      "//cwd": "Set this to the absolute path of your cloned mcp-erp-server checkout, or install the package so 'python -m mcp_server' is importable.",
+      "cwd": "/absolute/path/to/mcp-erp-server"
+    },
+    "//live-variant": {
+      "command": "python",
+      "args": ["-m", "mcp_server"],
+      "cwd": "/absolute/path/to/mcp-erp-server",
+      "env": {
+        "BACKEND_URL": "http://localhost:8069",
+        "READONLY": "true"
+      }
+    }
+  }
+}

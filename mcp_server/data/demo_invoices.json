@@ -1,0 +1,122 @@
+[
+  {
+    "id": 5001,
+    "number": "INV/2026/0001",
+    "partner_id": 1,
+    "partner_name": "Acme Industries",
+    "date": "2026-01-15",
+    "due_date": "2026-02-14",
+    "state": "paid",
+    "amount_total": 219.89,
+    "currency": "USD",
+    "lines": [
+      {
+        "product_id": 101,
+        "description": "Standard Widget",
+        "quantity": 10.0,
+        "unit_price": 19.99
+      },
+      {
+        "product_id": 102,
+        "description": "Premium Widget",
+        "quantity": 0.4,
+        "unit_price": 49.99
+      }
+    ]
+  },
+  {
+    "id": 5002,
+    "number": "INV/2026/0002",
+    "partner_id": 2,
+    "partner_name": "Globex Corporation",
+    "date": "2026-02-03",
+    "due_date": "2026-03-05",
+    "state": "posted",
+    "amount_total": 1200.0,
+    "currency": "GBP",
+    "lines": [
+      {
+        "product_id": 105,
+        "description": "Annual Support Plan",
+        "quantity": 1.0,
+        "unit_price": 1200.0
+      }
+    ]
+  },
+  {
+    "id": 5003,
+    "number": "INV/2026/0003",
+    "partner_id": 3,
+    "partner_name": "Initech LLC",
+    "date": "2026-02-20",
+    "due_date": "2026-03-22",
+    "state": "draft",
+    "amount_total": 712.0,
+    "currency": "USD",
+    "lines": [
+      {
+        "product_id": 104,
+        "description": "Gadget Pro",
+        "quantity": 8.0,
+        "unit_price": 89.0
+      }
+    ]
+  },
+  {
+    "id": 5004,
+    "number": "INV/2026/0004",
+    "partner_id": 5,
+    "partner_name": "Umbrella Trading GmbH",
+    "date": "2026-03-11",
+    "due_date": "2026-04-10",
+    "state": "posted",
+    "amount_total": 450.0,
+    "currency": "EUR",
+    "lines": [
+      {
+        "product_id": 106,
+        "description": "Onboarding Consulting (per hour)",
+        "quantity": 3.0,
+        "unit_price": 150.0
+      }
+    ]
+  },
+  {
+    "id": 5005,
+    "number": "INV/2026/0005",
+    "partner_id": 1,
+    "partner_name": "Acme Industries",
+    "date": "2026-04-02",
+    "due_date": "2026-05-02",
+    "state": "paid",
+    "amount_total": 99.95,
+    "currency": "USD",
+    "lines": [
+      {
+        "product_id": 102,
+        "description": "Premium Widget",
+        "quantity": 2.0,
+        "unit_price": 49.99
+      }
+    ]
+  },
+  {
+    "id": 5006,
+    "number": "INV/2026/0006",
+    "partner_id": 4,
+    "partner_name": "Maria Sol Garcia",
+    "date": "2026-04-28",
+    "due_date": "2026-05-28",
+    "state": "draft",
+    "amount_total": 12.5,
+    "currency": "EUR",
+    "lines": [
+      {
+        "product_id": 103,
+        "description": "Gadget Mini",
+        "quantity": 1.0,
+        "unit_price": 12.5
+      }
+    ]
+  }
+]

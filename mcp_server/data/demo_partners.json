@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Acme Industries",
+    "email": "billing@acme.example",
+    "phone": "+1-202-555-0143",
+    "is_company": true,
+    "country": "US"
+  },
+  {
+    "id": 2,
+    "name": "Globex Corporation",
+    "email": "accounts@globex.example",
+    "phone": "+44-20-7946-0991",
+    "is_company": true,
+    "country": "GB"
+  },
+  {
+    "id": 3,
+    "name": "Initech LLC",
+    "email": "ap@initech.example",
+    "phone": "+1-415-555-0177",
+    "is_company": true,
+    "country": "US"
+  },
+  {
+    "id": 4,
+    "name": "Maria Sol Garcia",
+    "email": "maria.garcia@example.com",
+    "phone": "+34-93-555-2210",
+    "is_company": false,
+    "country": "ES"
+  },
+  {
+    "id": 5,
+    "name": "Umbrella Trading GmbH",
+    "email": "finance@umbrella.example",
+    "phone": "+49-30-555-8841",
+    "is_company": true,
+    "country": "DE"
+  }
+]
