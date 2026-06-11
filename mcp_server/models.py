@@ -8,12 +8,12 @@ mode return identical shapes.
 from __future__ import annotations
 
 from datetime import date
-from enum import Enum
+from enum import StrEnum
 
 from pydantic import BaseModel, Field
 
 
-class InvoiceState(str, Enum):
+class InvoiceState(StrEnum):
     """Lifecycle state of an invoice."""
 
     draft = "draft"
